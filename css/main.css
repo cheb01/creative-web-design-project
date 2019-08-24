@@ -1,0 +1,62 @@
+main-header {
+    background: url(../img/showcase.jpg);
+    height: 100vh        ;
+    background-position: center;
+    max-height: 600 px;
+    background-size: cover;
+    color:#fff;
+    position:relative;
+
+
+}
+
+.primary-overlay {
+    background : rgba(63, 57, 77, 0.7);
+    position: relative;
+    top: 0;
+    left:0;
+    height: 100%;
+    width : 100%;
+    overflow : hidden;
+}
+
+
+.carousel .carousel-item>img {
+    position: relative;
+    width: 300%; 
+    margin-left: -90%;
+    margin-right: -10%;
+ }
+
+ /*.c{
+     position: relative;
+ }*/
+.centered{
+    position: absolute;
+    text-align: center;
+    font-size: 4.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    top: 50%;
+    left:50%
+    transform: translate (-50%, -50%);
+}
+
+/*.B{
+    text-align: center;
+    margin-left:-60%; 
+    margin-right:-10%; 
+    width:100px;
+}*/
+
+/*B{
+   background-color: lightgrey;
+    width: 600px;
+    border: 15px ;
+     padding: 50px;
+    margin: 20px;
+}*/
+.container{
+    padding-left:30px !important;
+    padding-right:30px important;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Open Sans;
+}
+
+.nav-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav {
+    background-color: #292929;
+}
+
+h2.header span{
+    color: darkorange;
+}
+
+
+button {
+    background-color: white;
+    border: 1px solid #292929;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #292929;
+}
+
+button i {
+    margin-right: -20px;
+    vertical-align: middle;
+}
+
+button:hover {
+    transition: background-color 0.5s ease;
+    background-color: #292929;
+    color: white;
+}

@@ -1,0 +1,216 @@
+body {
+    font-family: Open Sans !important;
+    padding-bottom: 0 !important;
+    overflow-x: hidden;
+}
+
+.main-header {
+    background: url(../img/traveller.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh; 
+}
+
+.primary-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    overflow: hidden;
+}
+
+nav ul li a {
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+nav ul li a:hover {
+    color: darkorange !important;
+    background-color: #292929 !important;
+    transition: color 0.5s ease !important;
+}
+
+
+/* side nav */
+ul li span {
+    margin-top: -5px !important;
+    font-size: 20px;
+}
+
+.card-panel {
+    margin-top: 20% !important;
+    margin-left: 5%;
+    position: relative;
+}
+
+.card-panel h1 {
+    font-weight: bold !important;
+    margin-top: -45px !important;
+    font-family: Dharma Gothic E Heavy !important;
+    font-size: 76px !important;
+}
+
+h1.title {
+    font-size: 40px !important;
+}
+
+h1 span {
+    font-size: 108px !important;
+    color: darkorange;
+}
+h1 span.dark {
+    color: #292929;
+}
+
+.card-bottom {
+    margin-top: -20px !important;
+    border-top: 5px solid white !important;
+    height: auto;
+    position: relative;
+    text-align: left;
+}
+
+.card-bottom p {
+    margin-bottom: -25px;
+    font-size: 20px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-bottom p span {
+    color: darkorange;
+}
+
+.card-bottom a {
+    margin-top: 20px;
+    margin-right: 5px;
+    background-color: transparent !important;
+    border: 2px solid white !important;
+    padding: 5px 20px!important;
+    font-size: 17px;
+}
+
+.card-bottom a:hover {
+    background-color: darkorange !important;
+    border-color: darkorange !important;
+    transition:  0.5s ease !important;
+}
+
+.social span {
+    font-family: Open Sans !important;
+    font-size: 20px !important;
+    margin-left: 80px;
+}
+
+.section-media .row {
+    text-align: center !important;
+}
+
+.section-media {
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: -100px !important;
+}
+
+.section-media i {
+    
+    width: 50px;
+    padding: 5px;
+    margin-right: -75px;
+    border-radius: 8px;
+}
+
+img.featured {
+    height: 200px;
+    width: 350px;
+    margin-top: 30px !important;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.dharma {
+    font-family: Dharma Gothic E Heavy;
+    text-transform: uppercase !important;
+}
+
+.title {
+    font-size: 50px !important;
+    margin-top: -30px !important;
+} 
+
+p.flow-text {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.last-parallax {
+    margin-top: -5%;
+}
+
+.section-sloped {
+    -moz-transform: skew(0deg, 5deg);
+    -webkit-transform: skew(0deg, 5deg);
+    -o-transform: skew(0deg, 5deg);
+    -ms-transform: skew(0deg, 5deg);
+    transform: skew(0deg, 5deg);
+    background-color: white;
+    height: 600px;
+    margin-top: -150px;
+}
+
+.sloped {
+    margin-top: 5%;
+    transform: skew(0deg, -5deg) !important;
+}
+
+.footer-copyright {
+    height: 40px;
+    background-color: #292929;
+    line-height: 40px;
+}
+
+i.footer {
+    background-color: transparent;
+    color: white
+}
+
+img.partners {
+    height: 40px;
+}
+
+.partners-med {
+    margin-top: 30px;
+    height: 70px !important;
+}
+
+
+@media only screen and (max-width: 900px) {
+    h1.title {
+        text-align: center !important;
+    }
+    h1, h1 span, h1 span.dark, .card-bottom p, a.header-link { display: block; text-align: center !important; }
+}
+
+@media only screen and (max-width: 616px) {
+    img.partners-med {
+        display: block;
+        margin: 0 auto;
+    }
+
+    img.response {
+        display: none;
+    }
+
+    section#partners .container h3 {
+        margin-top: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    a.right i {
+        margin-right: 30px !important;
+    }
+}

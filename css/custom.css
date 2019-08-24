@@ -1,0 +1,41 @@
+.main-header{
+    background: white;
+    color: black;
+    height: 300px;
+}
+
+body {
+    background: #292929;
+}
+
+
+.section-main {
+    background: url(../img/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg);
+    height: 65vh;
+    background-position: center;
+    min-height: 200px;
+    background-size: cover;
+}
+
+
+.section-contact {
+    position: relative;
+}
+
+.section-contact .card-panel {
+position: relative;
+z-index: 1;
+}
+
+#googlemap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    }
+
+    #contactform {
+        opacity: 0;
+    }
