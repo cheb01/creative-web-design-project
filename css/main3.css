@@ -13,7 +13,7 @@ body {
 
 .primary-overlay {
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -31,7 +31,6 @@ nav ul li a:hover {
     transition: color 0.5s ease !important;
 }
 
-
 /* side nav */
 ul li span {
     margin-top: -5px !important;
@@ -41,7 +40,7 @@ ul li span {
 .card-panel {
     margin-top: 20% !important;
     margin-left: 5%;
-    position: relative;
+    z-index: 2;
 }
 
 .card-panel h1 {
@@ -194,6 +193,10 @@ img.partners {
     h1, h1 span, h1 span.dark, .card-bottom p, a.header-link { display: block; text-align: center !important; }
 }
 
+@media only screen and (max-width: 815px) {
+    
+}
+
 @media only screen and (max-width: 616px) {
     img.partners-med {
         display: block;
@@ -214,3 +217,18 @@ img.partners {
         margin-right: 30px !important;
     }
 }
+
+@media only screen and (max-width: 390px) {
+    img.featured {
+        height: 100px !important;
+        width: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    img.featured {
+        height: 100px !important;
+        width: 220px !important;
+    }
+}
+
